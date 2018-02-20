@@ -1,4 +1,4 @@
-#Orbiter Demo
+# Orbiter Demo
 
 This stack demonstrates the use of [orbiter](https://github.com/gianarb/orbiter) to scale services up/down on a docker swarm. The stack consists of,
 * [orbiter](https://github.com/gianarb/orbiter) - Swarm Service Scaler
