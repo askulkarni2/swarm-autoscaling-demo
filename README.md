@@ -1,18 +1,18 @@
 #Orbiter Demo
 
 This stack demonstrates the use of [orbiter](https://github.com/gianarb/orbiter) to scale services up/down on a docker swarm. The stack consists of,
-[orbiter](https://github.com/gianarb/orbiter) - Swarm Service Scaler
-[Docker HAProxy](https://hub.docker.com/r/dockercloud/haproxy) - Load Balancer
-[Docker Hello World](https://hub.docker.com/r/dockercloud/hello-world) - Sample App
-[Prometheus](https://prometheus.io) - Collect Metrics
-[HAProxy Exporter](https://github.com/prometheus/haproxy_exporter) - Provide HA Proxy metric endpoint
-[AlertManager](https://prometheus.io/docs/alerting/overview) - Alert Processing
-[Unsee](https://github.com/cloudflare/unsee) - Alert Dashboard
-(Grafana)(https://grafana.com) - Metric Dashboard
+* [orbiter](https://github.com/gianarb/orbiter) - Swarm Service Scaler
+* [Docker HAProxy](https://hub.docker.com/r/dockercloud/haproxy) - Load Balancer
+* [Docker Hello World](https://hub.docker.com/r/dockercloud/hello-world) - Sample App
+* [Prometheus](https://prometheus.io) - Collect Metrics
+* [HAProxy Exporter](https://github.com/prometheus/haproxy_exporter) - Provide HA Proxy metric endpoint
+* [AlertManager](https://prometheus.io/docs/alerting/overview) - Alert Processing
+* [Unsee](https://github.com/cloudflare/unsee) - Alert Dashboard
+* [Grafana](https://grafana.com) - Metric Dashboard
 
 ## Install
 ### Prerequisites
-* (Docker Version 18.02.0-ce)[https://docs.docker.com/install/]
+* [Docker Version 18.02.0-ce](https://docs.docker.com/install/)
 
 Clone this repository and run the stack:
 ```
