@@ -1,0 +1,11 @@
+echo "GET http://localhost/" | vegeta attack -duration=300s -rate=25  | tee results.bin | vegeta report
+echo "GET http://localhost/" | vegeta attack -duration=300s -rate=50  | tee results.bin | vegeta report
+echo "GET http://localhost/" | vegeta attack -duration=300s -rate=75  | tee results.bin | vegeta report
+echo "GET http://localhost/" | vegeta attack -duration=300s -rate=100 | tee results.bin | vegeta report
+echo "GET http://localhost/" | vegeta attack -duration=300s -rate=125 | tee results.bin | vegeta report
+echo "GET http://localhost/" | vegeta attack -duration=300s -rate=150 | tee results.bin | vegeta report
+echo "GET http://localhost/" | vegeta attack -duration=300s -rate=125 | tee results.bin | vegeta report
+echo "GET http://localhost/" | vegeta attack -duration=300s -rate=100 | tee results.bin | vegeta report
+echo "GET http://localhost/" | vegeta attack -duration=300s -rate=75  | tee results.bin | vegeta report
+echo "GET http://localhost/" | vegeta attack -duration=300s -rate=50  | tee results.bin | vegeta report
+echo "GET http://localhost/" | vegeta attack -duration=300s -rate=25  | tee results.bin | vegeta report
