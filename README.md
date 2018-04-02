@@ -16,7 +16,7 @@ This stack demonstrates the use of [orbiter](https://github.com/gianarb/orbiter)
 
 Clone this repository and run the stack:
 ```
-git clone https://github.com/askulkarni2/swarm-autoscalig-demo.git
+git clone https://github.com/askulkarni2/swarm-autoscaling-demo.git
 docker stack deploy -c docker-compose.yml orbiterDemo
 ```
 
